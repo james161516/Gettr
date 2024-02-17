@@ -29,6 +29,7 @@ public class Registration {
 	 driver.findElement(By.cssSelector("input[value='Register']")).click();
 	String text= driver.findElement(By.cssSelector("h1[class='headcolor']")).getText();
 	Assert.assertEquals("Account Created Successfully", text);
+	System.out.println("Hello git hub");
 
 	}
 
